@@ -1,0 +1,100 @@
+header{
+  text-align: right;
+  padding: 10px;
+}
+
+body{
+  background-color: skyblue;
+  /* color: white; */
+  font-family: Verdana,sans-serif;
+  margin: 0;
+}
+
+header a{
+  text-decoration: none;
+  color: red;
+}
+
+header a:hover{
+  color: inherit;
+
+}
+
+header ul{
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+
+}
+
+header li{
+  display: inline-block;
+  padding-top: 4px;
+  padding-bottom:  4px;
+  padding-right:  8px;
+  padding-left:  8px;
+  font-size: 15px;
+}
+
+section{
+  text-align:center;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+section h1{
+  color:blue;
+  font-size: 30px;
+}
+
+section a{
+  color:red;
+
+}
+
+.icon{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#icon{
+  border-radius: 50%;
+  border: 5px solid pink;
+  box-shadow: x y bokasi color
+  box-shadow: 0 0 50px black;
+}
+
+footer{
+  width: 500px;
+  margin: 0 auto 60px;
+  text-align: right;
+
+}
+
+footer ul{
+  list-style-type: none;
+  /* float: left; */
+}
+
+footer li{
+  display:inline-block;
+  /* padding: 4px 8px; */
+}
+
+footer p{
+  text-align: right;
+  padding: 0;
+  color: lightgray;
+
+}
+
+footer a{
+  text-decoration:  none;
+
+}
+
+footer li > a:hover{
+  /* 透明にする　opacity: 0.6; */
+  opacity: 0.6;
+}
